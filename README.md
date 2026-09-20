@@ -1,8 +1,11 @@
 # Homebrew tap for Moe
 
-Moe is a free Mac assistant: it has read your mail, messages and calendar,
-remembers you between days in a plain text file you can open, and works the
-apps itself. If Wispr Flow spoke back. https://moebot.app
+No chat box. Talk from any app, and it talks back.
+
+Moe lives in your notch, in every app on your Mac. Say "Hey Moe", it answers
+out loud, and it does the work. It remembers you in a plain text file you can
+open. Free with the Claude or ChatGPT account you already have, or an API key
+or a local model. https://moebot.app
 
     brew install --cask izzy-gottz/moe/moe
 
