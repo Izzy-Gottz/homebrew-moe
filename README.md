@@ -1,14 +1,18 @@
-# Homebrew tap for Moe
+# Homebrew tap for Memoe
 
-No chat box. Talk from any app, and it talks back.
+No chat box. Just talk.
 
-Moe lives in your notch, in every app on your Mac. Say "Hey Moe", it answers
-out loud, and it does the work. It remembers you in a plain text file you can
-open. Free with the Claude or ChatGPT account you already have, or an API key
-or a local model. https://moebot.app
+Memoe lives in your MacBook's notch. Hold right ⌥ in any app, ask out loud,
+and it answers out loud. Free and open source (Apache-2.0), and it runs on the
+Claude or ChatGPT plan you already have, or an API key.
 
-    brew install --cask izzy-gottz/moe/moe
+    brew install --cask izzy-gottz/moe/memoe
 
 macOS 15 or later, Apple silicon. The app is signed with a Developer ID and
-notarized, and updates itself; `brew upgrade` also picks up new versions
-from the same Sparkle feed the app uses.
+notarized, and updates itself.
+
+- Website: https://memoe.app
+- Source: https://github.com/memoe-app/memoe
+
+The old `moe` cask was renamed to `memoe`; `brew upgrade` moves an existing
+install across.
